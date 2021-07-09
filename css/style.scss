@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    background-color: bisque;
+    p{
+        margin: 50px 50px 0 50px
+    }
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+///navigator header
+
+.container{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    .menu__nav{
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+ 
+       
+        a{
+            font-size: 30px;
+            color: blueviolet;
+           
+            &:hover{
+                text-decoration: overline red;
+                color: currentColor;
+                
+            }
+        }
+    }
+
+    
+
+}
+
+
+///main
+
+.info{
+    text-align: center;
+    background-color: bisque;
+    height: 1000px;
+}
+
+
+
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    &:hover{
+        color:red
+    }
+}
+
+.toggle{
+    position: fixed;
+    right: 19%;
+    top:1%;
+    cursor: pointer;
+    
+
+    &:hover{
+        color: gold;
+    }
+}
+
+
